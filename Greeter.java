@@ -10,7 +10,7 @@ public class Greeter {
     locale = new Locale(language, country);
     this.name = name;
   }
-
+  //small changes
   public String sayHello() {
     ResourceBundle messages = ResourceBundle.getBundle("MessagesBundle", locale);
     return messages.getString("greeting") + ", " + name;
